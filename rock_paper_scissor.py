@@ -17,5 +17,10 @@ def game():
     else:
         print("computer choosed: ", com_choice)
         print("Computer win")
+    ask = input("want to play again ?").lower()
+    if ask == "yes":
+        game()
+    else:
+        print("thanku for playing")     
 game()
     
