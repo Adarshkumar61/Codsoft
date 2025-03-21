@@ -1,3 +1,4 @@
+# Features in my contact book:
 #contact add
 #contact view
 #contact search
