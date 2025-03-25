@@ -24,4 +24,3 @@ def game():
     else:
         print("thanku for playing")     
 game()
-    
