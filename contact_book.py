@@ -36,17 +36,17 @@ def contect_search(search_item):
 
 def contact_update():
     search_item = input("enter the contact name for updation: ")
-    found_contact = None
+    foundd_contact = None
     for todo in contact_list:
         name, phnumber = todo
         if search_item in name:
             found_contact = todo
             break
-    if found_contact:
+    if foundd_contact:
         print("Enter the updated details for update..")
         name = input("Enter the Updated name: ")
         phnumber = input("enter the updated number: ")
-        index = contact_list.index(found_contact)
+        index = contact_list.index(foundd_contact)
         contact_list[index] = [name, phnumber]
         print("Contact Updated Succesfully...")
     else:
