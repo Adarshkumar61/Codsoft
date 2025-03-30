@@ -1,8 +1,8 @@
 # Features in my contact book:
-#contact add
-#contact view
-#contact search
-#contact update
+#contact add,
+#contact view,
+#contact search,
+#contact update,
 #contact delete
 contact_list = []
 
