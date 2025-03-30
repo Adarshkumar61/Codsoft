@@ -3,7 +3,7 @@
 #contact view,
 #contact search,
 #contact update,
-#contact delete
+#contact delete.
 contact_list = []
 
 def contact_add(listt):
