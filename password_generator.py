@@ -17,5 +17,5 @@ while True:
         
 password = random_pass(length)
 print("Generated password: ", password)
-print("thanku for using our program.")
+print("thanku for using our program.😊")
     
