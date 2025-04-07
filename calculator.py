@@ -5,7 +5,7 @@ def calculator():
     
     input2 = float(input("Enter your second number: "))
     
-    if operation == "+":
+    if operation == "+":  
         result = input1 + input2
     elif operation == "-":
         result = input1 - input2
