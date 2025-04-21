@@ -13,7 +13,7 @@ def contact_add(listt):
     except ValueError:
         print("wrong format..") 
 
-def contact_view():
+def contact_view(): 
     if not contact_list:
         print("Empty list..")
     for i, todo in enumerate(contact_list, start=1):
