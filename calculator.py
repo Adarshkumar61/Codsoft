@@ -24,5 +24,5 @@ def calculator():
     if choice == "yes".lower():
         calculator()
     else:
-        print("thanku for using calculator..")    
+        print("Thanku for using calculator..")    
 calculator()                 
