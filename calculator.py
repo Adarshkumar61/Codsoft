@@ -8,7 +8,7 @@ def calculator():
     if operation == "+":
         result = input1 + input2
     elif operation == "-":
-        result = input1 - input2 
+        result = input1 - input2
     elif operation == "*":
         result = input1 * input2
     elif operation == "/":
