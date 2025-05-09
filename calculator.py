@@ -18,7 +18,7 @@ def calculator():
            result = input1 / input2
     else:
         print("invalid operator..")
-        
+
     print("result: ", result)
     choice = input("Want to use again ?")
     if choice == "yes".lower():
