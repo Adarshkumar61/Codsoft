@@ -20,7 +20,7 @@ def calculator():
         print("invalid operator..")
 
     print("result: ", result)
-    choice = input("Want to use again ?")
+    choice = input("Want to use this again ?")
     if choice == "yes".lower():
         calculator()
     else:
