@@ -17,6 +17,6 @@ while True:
         print("invalid input..")
         
 password = random_pass(length)
-print("Generated password: ", password)
+print("Generated password: ", password)    
 print("Thanku for using our program.😊")
     
