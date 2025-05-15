@@ -2,7 +2,7 @@ import random
 import string
 
 def random_pass(length): 
-    if length < 4:
+    if length < 4: 
         return "password length should atleast 4 digits.."
     char = string.ascii_letters + string.digits
     # use combination of char letter and and many
