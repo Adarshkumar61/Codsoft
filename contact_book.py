@@ -32,7 +32,7 @@ def contect_search(search_item):
             name, phnumber = todo
             print(f"{i}. Name: {name},\n PhoneNumber: {phnumber}")
     else:
-        print("No contact has been found of this name")           
+        print("No contact has been found of this name")       
 
 def contact_update():
     search_item = input("enter the contact name for updation: ")
