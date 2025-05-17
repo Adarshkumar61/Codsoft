@@ -50,7 +50,7 @@ def contact_update():
         contact_list[index] = [name, phnumber]
         print("Contact Updated Succesfully...")
     else:
-        print("No contact found with this name..")    
+        print("No contact has been found with this name..")    
 
 def contact_delete(contact_number):
     try:
