@@ -2,7 +2,7 @@ tasks = []
 def create_task(task):
     tasks.append(task)
     
-def view_task():
+def view_task(): 
     for i, task in enumerate (tasks, start = 1):
         print(f"{i}. {tasks}")
  
