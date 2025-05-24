@@ -50,13 +50,13 @@ def contact_update():
         contact_list[index] = [name, phnumber]
         print("Contact Updated Succesfully...")
     else:
-        print("No contact has been found with this name..")    
+        print("No contact has been found with this Name..")    
 
 def contact_delete(contact_number):
     try:
         del contact_list[contact_number -1]
     except IndexError:
-        print("please enter correct input")
+        print("please enter correct input") 
 
 while True:
     print("1. create contact..")
