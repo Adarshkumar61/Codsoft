@@ -5,7 +5,7 @@ def create_task(task):
 def view_task():
     for i, task in enumerate (tasks, start = 1):
         print(f"{i}. {tasks}")
-
+ 
 def delete_task(tasknumber):
     try:
         tasks[tasknumber - 1]
