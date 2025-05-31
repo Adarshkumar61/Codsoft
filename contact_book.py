@@ -74,7 +74,7 @@ while True:
     elif choice == "3":
         search_item = input("enter name of the contact: ")
         contect_search(search_item)
-    elif choice == "4":
+    elif choice == "4": 
         task_number = int(input("enter the contact index you want to delete: "))
         contact_delete(task_number)
     elif choice == "5":
