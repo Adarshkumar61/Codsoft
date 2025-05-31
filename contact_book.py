@@ -66,7 +66,7 @@ while True:
     print("5. contact update..")
     print("6. for quit contact app..")
     choice = input("Enter what do u want to do (1,2,3,4,5,6): ")
-    if choice == "1":
+    if choice == "1": 
         listt = input("enter details (name, phone number): ")
         contact_add(listt)
     elif choice == "2":
