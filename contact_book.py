@@ -54,8 +54,8 @@ def contact_update():
 
 def contact_delete(contact_number):
     try:
-        del contact_list[contact_number -1]
-    except IndexError:
+        del contact_list[contact_number -1] 
+    except IndexError: 
         print("please enter correct input") 
 
 while True:
