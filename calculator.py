@@ -15,7 +15,7 @@ def calculator():
         if input2 == 0:
            print("invalid")
         else:
-           result = input1 / input2
+           result = input1 / input2 
     else:
         print("invalid operator..")
 
