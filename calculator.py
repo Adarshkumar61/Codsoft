@@ -11,7 +11,7 @@ def calculator():
         result = input1 - input2
     elif operation == "*":
         result = input1 * input2
-    elif operation == "/":
+    elif operation == "/": 
         if input2 == 0:
            print("invalid")
         else:
