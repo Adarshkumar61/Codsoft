@@ -10,7 +10,7 @@ def calculator():
     elif operation == "-":
         result = input1 - input2
     elif operation == "*":
-        result = input1 * input2
+        result = input1 * input2 
     elif operation == "/": 
         if input2 == 0:
            print("invalid")
