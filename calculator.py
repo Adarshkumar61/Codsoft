@@ -4,20 +4,20 @@ def calculator():
     operation =  input("Enter what do you want to do (+, -, *, /): ")
     
     input2 = float(input("Enter your second number: "))
-    
-    if operation == "+":
+    #operations: 
+    if operation == "+":  # add
         result = input1 + input2
-    elif operation == "-":
+    elif operation == "-": #minus
         result = input1 - input2
-    elif operation == "*":
+    elif operation == "*":  #multiply
         result = input1 * input2  
-    elif operation == "/": 
+    elif operation == "/": #divide
         if input2 == 0:
            print("invalid")
         else:
            result = input1 / input2 
     else:
-        print("invalid operator..")
+        print("invalid operator.. Choose Valid Operator (+, -, *, %)")
 
     print("result: ", result)
     choice = input("Want to use this again ?")
